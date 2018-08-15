@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "bits.h": "c",
+        "stdio.h": "c",
+        "unistd.h": "c",
+        "limits.h": "c",
+        "features.h": "c",
+        "cdefs.h": "c"
+    }
+}

@@ -1,0 +1,18 @@
+
+solution3.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	48 c7 c7 88 db 61 55 	mov    $0x5561db88,%rdi
+   7:	50                   	push   %rax
+   8:	48 b8 35 39 62 39 39 	movabs $0x6166373939623935,%rax
+   f:	37 66 61 
+  12:	48 89 04 25 88 db 61 	mov    %rax,0x5561db88
+  19:	55 
+  1a:	48 31 c0             	xor    %rax,%rax
+  1d:	48 89 04 25 90 db 61 	mov    %rax,0x5561db90
+  24:	55 
+  25:	58                   	pop    %rax
+  26:	c3                   	retq   
